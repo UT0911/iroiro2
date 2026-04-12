@@ -14,7 +14,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	SetFontSize(60); //フォントサイズ設定
 
 	while (ProcessMessage() == 0 && CheckHitKey(KEY_INPUT_ESCAPE) == 0) {
-		//処理を書く
+		//処理を書くaaaaaaaaa
 		ClearDrawScreen(); //画面を初期化
 		DrawFormatString(0, 0, GetColor(255, 255, 255), "Hello World!"); //文字の描画
 		ScreenFlip(); //画面更新
