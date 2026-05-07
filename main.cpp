@@ -9,7 +9,8 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	}
 
 	ChangeWindowMode(true); //ウィンドウモード設定
-	SetGraphMode(800, 800, 32); //ウィンドウサイズ、解像度設定
+	SetGraphMode(800, 800, 32); //ウィンドウサイズ、解像度設定qawse
+
 	SetMouseDispFlag(true); //マウス表示設定
 	SetFontSize(60); //フォントサイズ設定
 
